@@ -114,4 +114,42 @@ header .header-middle-container img {
   padding-bottom: 1.5rem;
   padding-top: 4rem;
 }
+
+.discover-preview-container {
+  height: 55vh;
+  display: flex;
+}
+
+.discover-preview-container .our-store-card, .discover-preview-container .our-store-side-img {
+  width: 50%;
+}
+
+.discover-preview-container .our-store-card {
+  background-color: #f2f2f2;
+}
+
+.discover-preview-container .our-store-side-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.our-store-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-store-card .our-store-card-container {
+  height: 91%;
+  width: 95%;
+  border: 1px dashed #99723c;
+}
+
+.our-store-card .our-store-card-container .our-store-card-bottom img {
+  object-fit: cover;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 /*# sourceMappingURL=index.css.map */

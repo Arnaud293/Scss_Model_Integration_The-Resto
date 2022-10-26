@@ -1,0 +1,20 @@
+.our-store-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .our-store-card-container{
+        height: 91%;
+        width: 95%;
+        border: 1px dashed rgb(153, 114, 60);
+        
+        & .our-store-card-bottom{
+            & img{
+                object-fit: cover;
+                width: 75px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}
