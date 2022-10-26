@@ -1,7 +1,7 @@
 header{
     // height: 100vh;
 
-    & .header-top-container{
+    & .header-container{
         height: 100vh;
         background-image: url('../../assets/img/bg-slider-06.jpg');
         background-size: cover;
@@ -47,6 +47,54 @@ header{
             }
         }
     
+    }
+
+    & .header-middle-container{
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 75vh;
+        align-content: center;
+
+        & .header-middle-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 40px;
+
+            & .title-line1{
+                font-family: $Allura;
+                color: rgb(153, 114, 60);
+                font-size: 3.5rem;
+            }
+            & .title-line2{
+                font-size: 3rem;
+                font-family: $Poppins;
+                font-weight: bold;
+                color: white;
+            }
+        }
+
+        & p, .title-line2{
+            text-transform: uppercase;
+            letter-spacing: 8px;
+        }
+
+        & p{
+            color: rgba(255, 255, 255, 0.896);
+            font-family: $Roboto;
+            font-size: 0.8rem;
+           
+        }
+
+        & img{
+            filter: contrast(8);
+            padding-bottom: 1.5rem;
+            padding-top: 4rem;
+        }
+        
     }
     
 }

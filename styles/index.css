@@ -23,34 +23,34 @@ li {
   src: url("../../assets/fonts/Allura-Regular.ttf");
 }
 
-header .header-top-container {
+header .header-container {
   height: 100vh;
   background-image: url("../../assets/img/bg-slider-06.jpg");
   background-size: cover;
   background-position: center;
 }
 
-header .header-top-container nav {
+header .header-container nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 10vh;
 }
 
-header .header-top-container nav span {
+header .header-container nav span {
   color: white;
   font-family: "Allura-Regular", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-header .header-top-container nav ul {
+header .header-container nav ul {
   display: flex;
   width: 50%;
   justify-content: space-between;
 }
 
-header .header-top-container nav ul li {
+header .header-container nav ul li {
   color: rgba(255, 255, 255, 0.896);
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -58,14 +58,60 @@ header .header-top-container nav ul li {
   font-family: "Roboto-Light", sans-serif;
 }
 
-header .header-top-container nav .icons-container {
+header .header-container nav .icons-container {
   display: flex;
   width: 10%;
   justify-content: space-between;
 }
 
-header .header-top-container nav .icons-container i {
+header .header-container nav .icons-container i {
   color: white;
   font-size: 1.2rem;
+}
+
+header .header-middle-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 75vh;
+  align-content: center;
+}
+
+header .header-middle-container .header-middle-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 40px;
+}
+
+header .header-middle-container .header-middle-title .title-line1 {
+  font-family: "Allura-Regular", sans-serif;
+  color: #99723c;
+  font-size: 3.5rem;
+}
+
+header .header-middle-container .header-middle-title .title-line2 {
+  font-size: 3rem;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+header .header-middle-container p, header .header-middle-container .title-line2 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+header .header-middle-container p {
+  color: rgba(255, 255, 255, 0.896);
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 0.8rem;
+}
+
+header .header-middle-container img {
+  filter: contrast(8);
+  padding-bottom: 1.5rem;
+  padding-top: 4rem;
 }
 /*# sourceMappingURL=index.css.map */
