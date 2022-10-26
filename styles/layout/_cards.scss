@@ -3,18 +3,62 @@
     justify-content: center;
     align-items: center;
 
+    &-title{
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+
+        &-line1{
+            color: rgb(153, 114, 60);
+            font-family: $Allura;
+            font-size: 2rem;
+        }
+        &-line2{
+            text-transform: uppercase;
+            font-family: $Poppins;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    }
+
     & .our-store-card-container{
-        height: 91%;
+        height: 92%;
         width: 95%;
         border: 1px dashed rgb(153, 114, 60);
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        align-content: space-evenly;
         
         & .our-store-card-bottom{
+
             & img{
                 object-fit: cover;
                 width: 75px;
                 border-radius: 50%;
                 object-fit: cover;
             }
+
+            &-text{
+
+                line-height: 2px;
+
+                & h3{
+                    font-family: $Poppins;
+                    font-weight: 500;
+                    font-size: 1rem;
+                }
+                & h4{
+                    text-transform: uppercase;
+                    font-family: $Roboto;
+                    font-size: 0.7rem;
+                    color: rgb(198, 197, 197);
+                }
+            }
+        }
+
+        & p{
+            font-family: $Roboto;
         }
     }
 }

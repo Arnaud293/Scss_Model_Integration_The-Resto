@@ -140,10 +140,33 @@ header .header-middle-container img {
   align-items: center;
 }
 
+.our-store-card-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+.our-store-card-title-line1 {
+  color: #99723c;
+  font-family: "Allura-Regular", sans-serif;
+  font-size: 2rem;
+}
+
+.our-store-card-title-line2 {
+  text-transform: uppercase;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .our-store-card .our-store-card-container {
-  height: 91%;
+  height: 92%;
   width: 95%;
   border: 1px dashed #99723c;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  align-content: space-evenly;
 }
 
 .our-store-card .our-store-card-container .our-store-card-bottom img {
@@ -151,5 +174,26 @@ header .header-middle-container img {
   width: 75px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.our-store-card .our-store-card-container .our-store-card-bottom-text {
+  line-height: 2px;
+}
+
+.our-store-card .our-store-card-container .our-store-card-bottom-text h3 {
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.our-store-card .our-store-card-container .our-store-card-bottom-text h4 {
+  text-transform: uppercase;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 0.7rem;
+  color: #c6c5c5;
+}
+
+.our-store-card .our-store-card-container p {
+  font-family: "Roboto-Light", sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
