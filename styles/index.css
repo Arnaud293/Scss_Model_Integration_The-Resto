@@ -134,6 +134,43 @@ header .header-middle-container img {
   width: 100%;
 }
 
+.discover-container {
+  height: 155vh;
+  background-color: #232222;
+  display: flex;
+  justify-content: center;
+}
+
+.discover-container-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35vh;
+  width: 55vw;
+  justify-content: space-evenly;
+}
+
+.discover-container-top h3 {
+  color: #99723c;
+  font-family: "Allura-Regular", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.discover-container-top img {
+  width: fit-content;
+}
+
+.discover-container-top ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.discover-container-top ul li {
+  color: white;
+}
+
 .our-store-card {
   display: flex;
   justify-content: center;
@@ -149,7 +186,7 @@ header .header-middle-container img {
 .our-store-card-title-line1 {
   color: #99723c;
   font-family: "Allura-Regular", sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .our-store-card-title-line2 {
