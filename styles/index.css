@@ -284,4 +284,25 @@ header .header-middle-container img {
   width: 80px;
   height: 80px;
 }
+
+.discover-container-menu-card .dish-text {
+  flex-wrap: wrap;
+  width: 55%;
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.discover-container-menu-card .dish-text h4 {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.discover-container-menu-card .dish-text p {
+  font-size: 0.9rem;
+}
+
+.discover-container-menu-card span {
+  color: #99723c;
+  font-family: "Roboto-Light", sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=index.css.map */
