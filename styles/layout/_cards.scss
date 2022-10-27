@@ -103,6 +103,8 @@
 
 // Booking cards
 
+// LEFT PART
+
 .booking-card-left{
     height: 90%;
     width: 80%;
@@ -163,4 +165,42 @@
         font-weight: 500;
         font-size: 1.3rem;
     }
+}
+
+// RIGHT PART 
+
+.booking-container-content-right-top{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+
+    & img{
+        width: fit-content;
+    }
+
+    &-title{
+        line-height: 35px;
+
+        & h3{
+            color: $color3;
+            font-family: $Allura;
+            font-size: 3.3rem;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+        }
+        & span{
+            text-transform: uppercase;
+            font-family: $Poppins;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+    }
+
+    
 }
