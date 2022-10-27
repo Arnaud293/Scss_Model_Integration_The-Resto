@@ -9,9 +9,9 @@
         line-height: 20px;
 
         &-line1{
-            color: rgb(153, 114, 60);
+            color: $color3;
             font-family: $Allura;
-            font-size: 2rem;
+            font-size: 1.9rem;
         }
         &-line2{
             text-transform: uppercase;
@@ -24,7 +24,7 @@
     & .our-store-card-container{
         height: 92%;
         width: 95%;
-        border: 1px dashed rgb(153, 114, 60);
+        border: 1px dashed $color3;
         display: grid;
         justify-items: center;
         text-align: center;
