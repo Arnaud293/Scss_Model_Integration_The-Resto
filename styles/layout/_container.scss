@@ -112,6 +112,9 @@
             width: 32%;
             height: 100%;
             background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         &-right{
             width: 68%;

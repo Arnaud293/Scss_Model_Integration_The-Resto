@@ -224,6 +224,9 @@ header .header-middle-container img {
   width: 32%;
   height: 100%;
   background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .booking-container-content-right {
@@ -330,5 +333,65 @@ header .header-middle-container img {
   color: #99723c;
   font-family: "Roboto-Light", sans-serif;
   font-weight: bold;
+}
+
+.booking-card-left {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px dashed #acabab;
+  text-align: center;
+}
+
+.booking-card-left h3 {
+  color: #99723c;
+}
+
+.booking-card-left span {
+  color: white;
+}
+
+.booking-card-left-title {
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.booking-card-left-title h3 {
+  font-size: 3rem;
+  font-family: "Allura-Regular", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-card-left-title span {
+  font-size: 1.5rem;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.booking-card-left-date1 h3, .booking-card-left-date2 h3 {
+  text-transform: uppercase;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: 500;
+}
+
+.booking-card-left-date1-text, .booking-card-left-date2-text {
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.booking-card-left img {
+  width: fit-content;
+}
+
+.booking-card-left-phone {
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=index.css.map */

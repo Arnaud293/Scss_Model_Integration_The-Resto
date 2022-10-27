@@ -100,3 +100,67 @@
         font-weight: bold;
     }
 }
+
+// Booking cards
+
+.booking-card-left{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px dashed #acabab;
+    text-align: center;
+
+    & h3{
+        color: $color3;
+    }
+    & span{
+        color: white;
+    }
+
+    &-title{
+
+        line-height: 30px;
+        margin-top: 15px;
+
+        & h3{
+            font-size: 3rem;
+            font-family: $Allura;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+        }
+        & span{
+            font-size: 1.5rem;
+            font-family: $Poppins;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    }
+
+    &-date1 , &-date2 {
+
+        & h3{
+            text-transform: uppercase;
+            font-family: $Poppins;
+            font-weight: 500;
+        }
+
+        &-text{
+            font-family: $Roboto;
+        }
+    }
+
+    & img{
+        width: fit-content;
+    }
+
+    &-phone{
+        font-family: $Poppins;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+}
