@@ -272,5 +272,15 @@ header .header-middle-container img {
 .discover-container-menu-card {
   border-bottom: 1px dashed #c6c5c5;
   margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discover-container-menu-card img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 /*# sourceMappingURL=index.css.map */
