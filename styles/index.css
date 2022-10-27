@@ -240,6 +240,40 @@ header .header-middle-container img {
   gap: 1rem;
 }
 
+.events-container {
+  height: 100vh;
+  background: #232222;
+  display: flex;
+  justify-content: center;
+}
+
+.events-container-top {
+  text-align: center;
+}
+
+.events-container-top-title {
+  line-height: 45px;
+  margin-top: 15px;
+}
+
+.events-container-top-title h3 {
+  font-size: 3rem;
+  font-family: "Allura-Regular", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: #99723c;
+}
+
+.events-container-top-title span {
+  font-size: 2.5rem;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+}
+
 .our-store-card {
   display: flex;
   justify-content: center;
