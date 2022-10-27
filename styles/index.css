@@ -189,7 +189,7 @@ header .header-middle-container img {
   grid-template-rows: 25% 25% 25% 25%;
   grid-template-columns: 1fr 1fr;
   width: 96%;
-  height: 100%;
+  height: 98%;
 }
 
 .discover-container-img {
@@ -271,7 +271,8 @@ header .header-middle-container img {
 
 .discover-container-menu-card {
   border-bottom: 1px dashed #c6c5c5;
-  margin: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
