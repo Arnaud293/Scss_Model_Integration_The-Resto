@@ -206,6 +206,32 @@ header .header-middle-container img {
   height: 100%;
 }
 
+.booking-container {
+  height: 100vh;
+  background-color: #232222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-container-content {
+  width: 75%;
+  height: 75%;
+  display: flex;
+}
+
+.booking-container-content-left {
+  width: 32%;
+  height: 100%;
+  background: black;
+}
+
+.booking-container-content-right {
+  width: 68%;
+  height: 100%;
+  background: #f2f2f2;
+}
+
 .our-store-card {
   display: flex;
   justify-content: center;
