@@ -233,6 +233,11 @@ header .header-middle-container img {
   width: 68%;
   height: 100%;
   background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .our-store-card {
@@ -393,5 +398,74 @@ header .header-middle-container img {
   font-family: "Poppins-Medium", sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
+}
+
+.booking-container-content-right-top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25%;
+}
+
+.booking-container-content-right-top img {
+  width: fit-content;
+}
+
+.booking-container-content-right-top-title {
+  line-height: 35px;
+}
+
+.booking-container-content-right-top-title h3 {
+  color: #99723c;
+  font-family: "Allura-Regular", sans-serif;
+  font-size: 3.3rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-container-content-right-top-title span {
+  text-transform: uppercase;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.booking-form {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  justify-content: center;
+}
+
+.booking-form input, .booking-form select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #c6c5c5;
+  margin: 10px;
+  height: 40px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  background: #232222;
+  border-radius: 30px;
+  width: 30%;
+  height: 52px;
+  text-transform: uppercase;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  letter-spacing: 6px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #232222;
+  background-color: white;
 }
 /*# sourceMappingURL=index.css.map */
