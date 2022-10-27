@@ -65,6 +65,17 @@
         background-color: #f2f2f2;
         border-top: 4px solid $color3;
         z-index: 2;
+        display: grid;
+        justify-items: center;
+        
+
+        &-cards-container{
+            display: grid;
+            grid-template-rows:25% 25% 25% 25%;
+            grid-template-columns: 1fr 1fr;
+            width: 96%;
+            height: 100%;
+        }
     }
 
     &-img{

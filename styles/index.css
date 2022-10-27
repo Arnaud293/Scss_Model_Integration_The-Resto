@@ -180,6 +180,16 @@ header .header-middle-container img {
   background-color: #f2f2f2;
   border-top: 4px solid #99723c;
   z-index: 2;
+  display: grid;
+  justify-items: center;
+}
+
+.discover-container-menu-cards-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr;
+  width: 96%;
+  height: 100%;
 }
 
 .discover-container-img {
@@ -257,5 +267,10 @@ header .header-middle-container img {
 
 .our-store-card .our-store-card-container p {
   font-family: "Roboto-Light", sans-serif;
+}
+
+.discover-container-menu-card {
+  border-bottom: 1px dashed #c6c5c5;
+  margin: 15px;
 }
 /*# sourceMappingURL=index.css.map */
