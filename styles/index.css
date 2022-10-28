@@ -308,6 +308,9 @@ header .header-middle-container img {
   height: 83.2%;
   width: 90%;
   background-image: url("../../assets/img/event-03.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-store-card {
@@ -575,6 +578,15 @@ header .header-middle-container img {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.events-card-right {
+  background-color: #f2f2f2;
+  width: 85%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .booking-form {
