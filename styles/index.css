@@ -550,6 +550,31 @@ header .header-middle-container img {
 .event-card-left-side-right {
   width: 60%;
   background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.event-card-left-side-right h3, .event-card-left-side-right p, .event-card-left-side-right span {
+  grid-column-start: 2;
+  font-family: "Roboto-Light", sans-serif;
+  letter-spacing: 2px;
+}
+
+.event-card-left-side-right h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #232222;
+}
+
+.event-card-left-side-right p {
+  color: #acabab;
+}
+
+.event-card-left-side-right span {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .booking-form {
