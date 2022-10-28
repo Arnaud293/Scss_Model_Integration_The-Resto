@@ -585,8 +585,65 @@ header .header-middle-container img {
   width: 85%;
   height: 85%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events-card-right-date {
+  width: 95px;
+  height: 95px;
+  background-color: #232222;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events-card-right-date span {
+  color: white;
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.events-card-right-date span:first-child {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.events-card-right-date span:last-child {
+  font-size: 1.2rem;
+}
+
+.events-card-right-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+}
+
+.events-card-right-infos h3, .events-card-right-infos p, .events-card-right-infos span {
+  grid-column-start: 2;
+  font-family: "Roboto-Light", sans-serif;
+  letter-spacing: 2px;
+}
+
+.events-card-right-infos h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #232222;
+}
+
+.events-card-right-infos p {
+  color: #acabab;
+  margin-top: -45px;
+}
+
+.events-card-right-infos span {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .booking-form {
