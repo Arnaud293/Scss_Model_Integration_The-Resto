@@ -137,6 +137,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
 
     &-top{
 
@@ -167,7 +168,7 @@
     }
 
     &-cards-container{
-        width: 100%;
+        width: 90%;
         display: flex;
         height: 80vh;
 
@@ -181,7 +182,6 @@
             gap: 1rem;
 
             & article{
-                border: 1px solid blue;
                 height: 40%;
                 width: 95%;
             }
@@ -194,9 +194,9 @@
             align-items: center;
 
             & article{
-                border: 1px solid blue;
                 height: 83.2%;
                 width: 90%;
+                background-image: url('../../assets/img/event-03.jpg');
             }
         }
     }

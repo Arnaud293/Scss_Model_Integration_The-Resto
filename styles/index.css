@@ -246,6 +246,7 @@ header .header-middle-container img {
   display: flex;
   flex-direction: column;
   align-content: center;
+  align-items: center;
 }
 
 .events-container-top {
@@ -276,7 +277,7 @@ header .header-middle-container img {
 }
 
 .events-container-cards-container {
-  width: 100%;
+  width: 90%;
   display: flex;
   height: 80vh;
 }
@@ -292,7 +293,6 @@ header .header-middle-container img {
 }
 
 .events-container-cards-container-left article {
-  border: 1px solid blue;
   height: 40%;
   width: 95%;
 }
@@ -305,9 +305,9 @@ header .header-middle-container img {
 }
 
 .events-container-cards-container-right article {
-  border: 1px solid blue;
   height: 83.2%;
   width: 90%;
+  background-image: url("../../assets/img/event-03.jpg");
 }
 
 .our-store-card {
@@ -501,6 +501,25 @@ header .header-middle-container img {
   font-family: "Poppins-Medium", sans-serif;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.event-card-left {
+  display: flex;
+}
+
+.event-card-left-side-left {
+  width: 40%;
+}
+
+.event-card-left-side-left img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.event-card-left-side-right {
+  width: 60%;
+  background-color: #f2f2f2;
 }
 
 .booking-form {
