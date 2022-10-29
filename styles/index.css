@@ -133,12 +133,30 @@ header .header-middle-container img {
   display: flex;
 }
 
+@media screen and (max-width: 700px) {
+  .discover-preview-container {
+    height: 75vh;
+  }
+}
+
 .discover-preview-container .our-store-card, .discover-preview-container .our-store-side-img {
   width: 50%;
 }
 
+@media screen and (max-width: 700px) {
+  .discover-preview-container .our-store-side-img {
+    display: none;
+  }
+}
+
 .discover-preview-container .our-store-card {
   background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 700px) {
+  .discover-preview-container .our-store-card {
+    width: 100%;
+  }
 }
 
 .discover-preview-container .our-store-side-img img {
