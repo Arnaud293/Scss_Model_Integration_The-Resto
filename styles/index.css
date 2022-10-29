@@ -669,7 +669,7 @@ header .header-middle-container img {
   font-weight: bold;
 }
 
-.main-content-bottom-motto-card {
+.motto-card {
   background-color: #f2f2f2;
   width: 70%;
   height: 40%;
@@ -679,11 +679,11 @@ header .header-middle-container img {
   flex-direction: column;
 }
 
-.main-content-bottom-motto-card > * {
+.motto-card > * {
   width: 80%;
 }
 
-.main-content-bottom-motto-card img {
+.motto-card img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
