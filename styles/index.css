@@ -677,17 +677,48 @@ header .header-middle-container img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .motto-card > * {
   width: 80%;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .motto-card img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
+  position: absolute;
+  top: 195px;
+}
+
+.motto-card p {
+  text-align: center;
+  line-height: 35px;
+}
+
+.motto-card p i {
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.motto-card-sub-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 40px;
+}
+
+.motto-card-sub-text :first-child {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.motto-card-sub-text :last-child {
+  color: #99723c;
 }
 
 .booking-form {
