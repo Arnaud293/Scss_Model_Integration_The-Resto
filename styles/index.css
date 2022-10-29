@@ -756,4 +756,43 @@ header .header-middle-container img {
   color: #232222;
   background-color: white;
 }
+
+footer {
+  height: 35vh;
+  width: 100%;
+  background-size: contain;
+  background-image: url("../../assets/img/bg-footer.jpg");
+  display: flex;
+}
+
+footer .footer-left, footer .footer-right {
+  width: 50%;
+  height: 100%;
+}
+
+footer .footer-left {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+footer .footer-left-text {
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .footer-left-text h3 {
+  font-family: "Allura-Regular", sans-serif;
+  font-size: 2.5rem;
+  color: #99723c;
+  font-weight: 500;
+  margin: 0;
+}
+
+footer .footer-left-text p {
+  color: darkgray;
+  font-size: 0.9rem;
+  font-family: "Roboto-Light", sans-serif;
+}
 /*# sourceMappingURL=index.css.map */
