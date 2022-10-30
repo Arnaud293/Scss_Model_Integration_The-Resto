@@ -190,6 +190,12 @@ header .header-middle-container img {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 780px) {
+  .discover-container-top {
+    width: 80vw;
+  }
+}
+
 .discover-container-top h3 {
   color: #99723c;
   font-family: "Allura-Regular", sans-serif;
@@ -210,12 +216,19 @@ header .header-middle-container img {
 @media screen and (max-width: 620px) {
   .discover-container-top ul {
     font-size: smaller;
+    height: 3vh;
   }
 }
 
 .discover-container-top ul li {
   color: white;
   font-family: "Roboto-Light", sans-serif;
+}
+
+@media screen and (max-width: 780px) {
+  .discover-container-top ul li {
+    border-bottom: 3px solid grey;
+  }
 }
 
 .discover-container-menu {
@@ -231,6 +244,7 @@ header .header-middle-container img {
 @media screen and (max-width: 780px) {
   .discover-container-menu {
     height: auto;
+    width: 80vw;
   }
 }
 

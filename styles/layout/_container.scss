@@ -50,6 +50,9 @@
         height: 35vh;
         width: 55vw;
         justify-content: space-evenly;
+        @media screen and(max-width: 780px){
+            width: 80vw;
+        }
 
         & h3{
             color: $color3;
@@ -68,11 +71,16 @@
             width: 100%;
             @media screen and(max-width: 620px){
                 font-size: smaller;
+                height: 3vh;
             }
 
             & li{
                 color: white;
                 font-family: $Roboto;
+
+                @media screen and(max-width: 780px){
+                    border-bottom: 3px solid grey;
+                }
 
             }
         }
@@ -88,6 +96,7 @@
         justify-items: center;
         @media screen and(max-width: 780px){
             height: auto;
+            width: 80vw;
         }
         
 
