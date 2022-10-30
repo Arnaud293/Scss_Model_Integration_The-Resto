@@ -266,6 +266,12 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    @media screen and(max-width: 780px){
+        min-height: 90vh;
+    }
+    @media screen and(max-width: 360px){
+        min-height: 151vh;
+    }
 
     &-img-container{
         height: 45%;

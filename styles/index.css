@@ -424,6 +424,18 @@ header .header-middle-container img {
   align-items: center;
 }
 
+@media screen and (max-width: 780px) {
+  .main-content-bottom {
+    min-height: 90vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main-content-bottom {
+    min-height: 151vh;
+  }
+}
+
 .main-content-bottom-img-container {
   height: 45%;
   width: 100%;
@@ -787,6 +799,12 @@ header .header-middle-container img {
   justify-content: center;
 }
 
+@media screen and (max-width: 780px) {
+  .motto-card {
+    height: 75%;
+  }
+}
+
 .motto-card > * {
   width: 80%;
   font-family: "Roboto-Light", sans-serif;
@@ -799,6 +817,18 @@ header .header-middle-container img {
   object-fit: cover;
   position: absolute;
   top: 195px;
+}
+
+@media screen and (max-width: 780px) {
+  .motto-card img {
+    top: 55px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .motto-card img {
+    top: 110px;
+  }
 }
 
 .motto-card p {
