@@ -1,15 +1,16 @@
 footer{
-    height: 35vh;
+    height: 40vh;
     width: 100%;
     background-position: center;
     background-image: url('../../assets/img/bg-footer.jpg');
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5vh 25vh 5vh;
-    @media screen and(max-width: 780px){
+    @media screen and(max-width: 790px){
         background-position: right;
         display: flex;
         justify-content: center;
+        height: 35vh;
     }
 
     & .footer-left, .footer-right{
@@ -22,7 +23,7 @@ footer{
         grid-template-columns: 30% 65% 1fr;
         grid-column-start: 1;
         grid-row-start: 2;
-        @media screen and(max-width: 780px){
+        @media screen and(max-width: 790px){
             display: none;
         }
 

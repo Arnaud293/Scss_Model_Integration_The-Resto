@@ -908,7 +908,7 @@ header .header-middle-container img {
 }
 
 footer {
-  height: 35vh;
+  height: 40vh;
   width: 100%;
   background-position: center;
   background-image: url("../../assets/img/bg-footer.jpg");
@@ -917,11 +917,12 @@ footer {
   grid-template-rows: 5vh 25vh 5vh;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
   footer {
     background-position: right;
     display: flex;
     justify-content: center;
+    height: 35vh;
   }
 }
 
@@ -937,7 +938,7 @@ footer .footer-left {
   grid-row-start: 2;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
   footer .footer-left {
     display: none;
   }
