@@ -207,6 +207,12 @@ header .header-middle-container img {
   width: 100%;
 }
 
+@media screen and (max-width: 620px) {
+  .discover-container-top ul {
+    font-size: smaller;
+  }
+}
+
 .discover-container-top ul li {
   color: white;
   font-family: "Roboto-Light", sans-serif;
