@@ -896,6 +896,12 @@ header .header-middle-container img {
   cursor: pointer;
 }
 
+@media screen and (max-width: 780px) {
+  .btn {
+    width: 50%;
+  }
+}
+
 .btn:hover {
   color: #232222;
   background-color: white;
