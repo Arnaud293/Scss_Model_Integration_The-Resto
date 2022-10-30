@@ -75,6 +75,9 @@
     @media screen and(max-width: 780px){
         height: 15vh;
     }
+    @media screen and(max-width: 380px){
+        height: 18vh;
+    }
 
     & img{
         object-fit: cover;

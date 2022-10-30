@@ -528,6 +528,12 @@ header .header-middle-container img {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .discover-container-menu-card {
+    height: 18vh;
+  }
+}
+
 .discover-container-menu-card img {
   object-fit: cover;
   border-radius: 50%;
