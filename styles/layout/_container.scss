@@ -38,6 +38,10 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    @media screen and(max-width: 780px){
+        height: auto;
+        min-height: 175vh;
+    }
 
     &-top{
         display: flex;
@@ -79,6 +83,9 @@
         z-index: 2;
         display: grid;
         justify-items: center;
+        @media screen and(max-width: 780px){
+            height: auto;
+        }
         
 
         &-cards-container{
@@ -87,6 +94,11 @@
             grid-template-columns: 1fr 1fr;
             width: 96%;
             height: 98%;
+
+            @media screen and(max-width: 780px){
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
         }
     }
 
