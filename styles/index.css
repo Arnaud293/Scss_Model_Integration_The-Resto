@@ -300,6 +300,7 @@ header .header-middle-container img {
 @media screen and (max-width: 780px) {
   .booking-container-content {
     flex-direction: column;
+    width: 80%;
   }
 }
 
