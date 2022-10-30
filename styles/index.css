@@ -344,6 +344,12 @@ header .header-middle-container img {
   align-items: center;
 }
 
+@media screen and (max-width: 780px) {
+  .events-container {
+    display: none;
+  }
+}
+
 .events-container-top {
   text-align: center;
 }
