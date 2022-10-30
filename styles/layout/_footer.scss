@@ -6,6 +6,11 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5vh 25vh 5vh;
+    @media screen and(max-width: 780px){
+        background-position: right;
+        display: flex;
+        justify-content: center;
+    }
 
     & .footer-left, .footer-right{
         width: 100%;
@@ -17,6 +22,9 @@ footer{
         grid-template-columns: 30% 65% 1fr;
         grid-column-start: 1;
         grid-row-start: 2;
+        @media screen and(max-width: 780px){
+            display: none;
+        }
 
         &-text{
             grid-column-start: 2;
@@ -49,6 +57,11 @@ footer{
         grid-column-start: 2;
         grid-row-start: 2;
         grid-template-rows: 1fr;
+        @media screen and(max-width:780px){
+            display: flex;
+            width: 90vw;
+            justify-content: center;
+        }
 
         &-content{
             grid-column-start: 2;
@@ -56,6 +69,9 @@ footer{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            @media screen and(max-width:780px){
+                width: 90vw;
+            }
     
 
 
@@ -77,6 +93,15 @@ footer{
                     height: 30px;
                     border: 1px solid rgba(153, 114, 60, 0.271);
                     background: none;
+                    @media screen and(max-width: 780px){
+                        width: 60%;
+                    }
+                    @media screen and(max-width: 620px){
+                        width: 75%;
+                    }
+                    @media screen and(max-width: 320px){
+                        width: 90%;
+                    }
                 }
             }
             &-icons{
@@ -84,6 +109,15 @@ footer{
                 align-items: center;
                 justify-content: space-between;
                 width: 50%;
+                @media screen and(max-width: 780px){
+                    width: 60%;
+                }
+                @media screen and(max-width: 620px){
+                    width: 75%;
+                }
+                @media screen and(max-width: 320px){
+                    width: 90%;
+                }
 
                 & i{
                     color: #acbaac;
