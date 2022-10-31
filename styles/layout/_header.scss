@@ -1,5 +1,4 @@
 header{
-    // height: 100vh;
 
     & .header-container{
         height: 100vh;
@@ -66,9 +65,7 @@ header{
         text-align: center;
 
         & .header-middle-title{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flexColumnAlignCenter;
             line-height: 40px;
 
             & .title-line1{
