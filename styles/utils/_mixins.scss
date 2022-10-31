@@ -1,0 +1,17 @@
+@mixin flexCenterCenterDefault {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColumnAlignCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin imageSize {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
