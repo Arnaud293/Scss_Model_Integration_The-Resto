@@ -31,6 +31,7 @@ I've consider this exercise was placed in the context of model integration rende
 * To be pixel-perfect with respect to the model (here it was rather a waste of time with respect to my objectives in this exercise).
 * Export and develop a larger fictional project with React, which could work with a fake database and potentially use Redux if needed.
 * For sure an optimized SEO with the addition of more adequate metas in the case of a deployment
+* ! Fix issue with fonts on deployment !
 
 *As changes are made, they will be visible on the github page, via the various commits, and the improvements will be annotated with :* :white_check_mark:
 
