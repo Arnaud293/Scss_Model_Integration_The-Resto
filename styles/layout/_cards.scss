@@ -1,7 +1,5 @@
 .our-store-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenterCenterDefault;
 
     &-title{
         display: flex;
@@ -113,9 +111,7 @@
 .booking-card-left{
     height: 90%;
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexColumnAlignCenter;
     justify-content: space-around;
     border: 1px dashed #acabab;
     text-align: center;
@@ -177,10 +173,8 @@
 .booking-container-content-right-top{
 
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    @include flexColumnAlignCenter;
     justify-content: space-around;
-    align-items: center;
     height: 25%;
 
     & img{
@@ -218,14 +212,10 @@
     &-side-left{
         width: 40%;
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexCenterCenterDefault;
 
         & img{
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
+            @include imageSize;
         }
 
         &-date{
@@ -234,10 +224,8 @@
             background-color: $background-color1;
             position: absolute;
             z-index: 2;
-            display: flex;
+            @include flexColumnAlignCenter;
             justify-content: center;
-            align-items: center;
-            flex-direction: column;
 
             & span{
                 color: white;
@@ -289,21 +277,17 @@
     background-color: #f2f2f2;
     width: 85%;
     height: 85%;
-    display: flex;
+    @include flexColumnAlignCenter;
     justify-content: flex-start;
     text-align: center;
-    flex-direction: column;
-    align-items: center;
 
     &-date{
             width: 95px;
             height: 95px;
             background-color: $background-color1;
             z-index: 2;
-            display: flex;
+            @include flexColumnAlignCenter;
             justify-content: center;
-            align-items: center;
-            flex-direction: column;
 
             & span{
                 color: white;
@@ -357,9 +341,7 @@
     width: 70%;
     height: 40%;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    @include flexColumnAlignCenter;
     justify-content: center;
     @media screen and(max-width: 780px){
         height: 75%;
@@ -398,9 +380,7 @@
     }
     
     &-sub-text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flexColumnAlignCenter;
         line-height: 40px;
 
         & :first-child{
