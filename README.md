@@ -26,7 +26,7 @@ Many improvements are needed to make this project a success.
 I've consider this exercise was placed in the context of model integration rendering as an MVP.
 **These improvements will be added over time, we can imagine this in particular :**
 
-* A refactoring of the code with the addition of mixines as well as clearer variables.
+* A refactoring of the code with the addition of mixines as well as clearer variables. :white_check_mark:
 * Add animations, hover, keyframes.
 * To be pixel-perfect with respect to the model (here it was rather a waste of time with respect to my objectives in this exercise).
 * Export and develop a larger fictional project with React, which could work with a fake database and potentially use Redux if needed.
