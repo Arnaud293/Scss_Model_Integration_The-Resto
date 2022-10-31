@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url(/assets/fonts/FontsFree-Net-Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Allura-Regular';
+  src: url(/assets/fonts/Allura-Regular.ttf);
+}
+
 html, body, ul {
   margin: 0;
   padding: 0;
@@ -6,21 +21,6 @@ html, body, ul {
 
 li {
   list-style-type: none;
-}
-
-@font-face {
-  font-family: 'Roboto-Light';
-  src: url("../../assets/fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-  font-family: 'Poppins-Medium';
-  src: url("../../assets/fonts/FontsFree-Net-Poppins-Medium.ttf");
-}
-
-@font-face {
-  font-family: 'Allura-Regular';
-  src: url("../../assets/fonts/Allura-Regular.ttf");
 }
 
 header .header-container {
@@ -45,7 +45,7 @@ header .header-container nav {
 
 header .header-container nav span {
   color: white;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -67,7 +67,7 @@ header .header-container nav ul li {
   text-transform: uppercase;
   font-size: 0.8rem;
   opacity: 0.9;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 header .header-container nav .icons-container {
@@ -99,14 +99,14 @@ header .header-middle-container .header-middle-title {
 }
 
 header .header-middle-container .header-middle-title .title-line1 {
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   color: #99723c;
   font-size: 3.5rem;
 }
 
 header .header-middle-container .header-middle-title .title-line2 {
   font-size: 3rem;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: bold;
   color: white;
 }
@@ -118,7 +118,7 @@ header .header-middle-container p, header .header-middle-container .title-line2 
 
 header .header-middle-container p {
   color: rgba(255, 255, 255, 0.896);
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   font-size: 0.8rem;
 }
 
@@ -198,7 +198,7 @@ header .header-middle-container img {
 
 .discover-container-top h3 {
   color: #99723c;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -222,7 +222,7 @@ header .header-middle-container img {
 
 .discover-container-top ul li {
   color: white;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 @media screen and (max-width: 780px) {
@@ -362,7 +362,7 @@ header .header-middle-container img {
 
 .events-container-top-title h3 {
   font-size: 3rem;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -371,7 +371,7 @@ header .header-middle-container img {
 
 .events-container-top-title span {
   font-size: 2.5rem;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -464,13 +464,13 @@ header .header-middle-container img {
 
 .our-store-card-title-line1 {
   color: #99723c;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-size: 1.9rem;
 }
 
 .our-store-card-title-line2 {
   text-transform: uppercase;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
 }
@@ -496,20 +496,20 @@ header .header-middle-container img {
 }
 
 .our-store-card .our-store-card-container .our-store-card-bottom-text h3 {
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: 500;
   font-size: 1rem;
 }
 
 .our-store-card .our-store-card-container .our-store-card-bottom-text h4 {
   text-transform: uppercase;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   font-size: 0.7rem;
   color: #c6c5c5;
 }
 
 .our-store-card .our-store-card-container p {
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .discover-container-menu-card {
@@ -543,7 +543,7 @@ header .header-middle-container img {
 .discover-container-menu-card .dish-text {
   flex-wrap: wrap;
   width: 55%;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .discover-container-menu-card .dish-text h4 {
@@ -557,7 +557,7 @@ header .header-middle-container img {
 
 .discover-container-menu-card span {
   color: #99723c;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   font-weight: bold;
 }
 
@@ -587,7 +587,7 @@ header .header-middle-container img {
 
 .booking-card-left-title h3 {
   font-size: 3rem;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -595,7 +595,7 @@ header .header-middle-container img {
 
 .booking-card-left-title span {
   font-size: 1.5rem;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -603,12 +603,12 @@ header .header-middle-container img {
 
 .booking-card-left-date1 h3, .booking-card-left-date2 h3 {
   text-transform: uppercase;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: 500;
 }
 
 .booking-card-left-date1-text, .booking-card-left-date2-text {
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .booking-card-left img {
@@ -616,7 +616,7 @@ header .header-middle-container img {
 }
 
 .booking-card-left-phone {
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -640,7 +640,7 @@ header .header-middle-container img {
 
 .booking-container-content-right-top-title h3 {
   color: #99723c;
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-size: 3.3rem;
   font-weight: 500;
   margin: 0;
@@ -649,7 +649,7 @@ header .header-middle-container img {
 
 .booking-container-content-right-top-title span {
   text-transform: uppercase;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -686,7 +686,7 @@ header .header-middle-container img {
 
 .event-card-left-side-left-date span {
   color: white;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .event-card-left-side-left-date span:first-child {
@@ -708,7 +708,7 @@ header .header-middle-container img {
 
 .event-card-left-side-right h3, .event-card-left-side-right p, .event-card-left-side-right span {
   grid-column-start: 2;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   letter-spacing: 2px;
 }
 
@@ -752,7 +752,7 @@ header .header-middle-container img {
 
 .events-card-right-date span {
   color: white;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .events-card-right-date span:first-child {
@@ -773,7 +773,7 @@ header .header-middle-container img {
 
 .events-card-right-infos h3, .events-card-right-infos p, .events-card-right-infos span {
   grid-column-start: 2;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   letter-spacing: 2px;
 }
 
@@ -813,7 +813,7 @@ header .header-middle-container img {
 
 .motto-card > * {
   width: 80%;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
 }
 
 .motto-card img {
@@ -888,7 +888,7 @@ header .header-middle-container img {
   width: 30%;
   height: 52px;
   text-transform: uppercase;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: bold;
   letter-spacing: 6px;
   margin-bottom: 1rem;
@@ -951,7 +951,7 @@ footer .footer-left-text {
 }
 
 footer .footer-left-text h3 {
-  font-family: "Allura-Regular", sans-serif;
+  font-family: Allura-Regular, sans-serif;
   font-size: 2.5rem;
   color: #99723c;
   font-weight: 500;
@@ -961,7 +961,7 @@ footer .footer-left-text h3 {
 footer .footer-left-text p {
   color: darkgray;
   font-size: 0.9rem;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: Roboto-Light, sans-serif;
   line-height: 35px;
 }
 
@@ -1000,7 +1000,7 @@ footer .footer-right-content label, footer .footer-right-content h4 {
   color: white;
   text-transform: uppercase;
   font-size: 0.9rem;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins-Medium, sans-serif;
   font-weight: 400;
 }
 

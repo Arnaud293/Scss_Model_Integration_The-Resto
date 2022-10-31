@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(/assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(/assets/fonts/FontsFree-Net-Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Allura-Regular';
+    src: url(/assets/fonts/Allura-Regular.ttf);
+}
+
+$Roboto: Roboto-Light, sans-serif;
+$Poppins: Poppins-Medium, sans-serif;
+$Allura: Allura-Regular, sans-serif;
+
+$background-color1 :rgb(35, 34, 34);
+$color3: rgb(153, 114, 60);
+
+html, body, ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
